@@ -1,0 +1,29 @@
+{
+  "name": "@geovanirobles/platzom",
+  "version": "0.1.0",
+  "description": "Platzom language traslator",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathansierra/Platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundament",
+    "javascript",
+    "js"
+  ],
+  "author": "Geovani Robles <sstms.eiee@gmail.com> (https://www.instagram.com/gvnrobles/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
